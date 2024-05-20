@@ -59,7 +59,7 @@ const AmazingMeal = () => {
               </span>
             </h2>
 
-            <h4>professzionális rendelő a XII. került szívében</h4>
+            <h4>Professzionális rendelő a XII. került szívében</h4>
 
             <p>
             2012.-ben alakult Gyenes Rita és Bogdán Sándor fogorvosi, illetve szájsebészeti 

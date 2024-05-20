@@ -1,0 +1,82 @@
+.intro-container {
+    display: flex;
+    gap: 5%;
+}
+
+.intro-carousal {
+    width: 65%;
+    margin-bottom: 50px;
+}
+
+.intro-carousal img {
+    width: 100%;
+    height: auto;  /* to change the size of the image*/
+    border-radius: 5px;
+}
+
+.slick-prev:before,
+.slick-next:before,
+.slick-dots li.slick-active button:before {
+    color: var(--color-primary) !important;
+}
+
+.amazing-content {
+    width: 30%;
+}
+
+.intro-content p {
+    padding: 20px 0;
+}
+
+.intro-card-container {
+    display: flex;
+    gap: 5%;
+    padding-top: 50px;
+}
+
+.intro-card {
+    width: 30%;
+}
+
+.intro-card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.intro-card-title {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.intro-card-content p {
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 768px ) {
+    .intro-container {
+        flex-direction: column;
+    }
+
+    .intro-carousal {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .intro-content {
+        width: 100%;
+    }
+
+    .intro-card-container {
+        flex-direction: column;
+    }
+
+    .intro-card {
+        width: 100%;
+    }
+
+    .intro-card-left {
+        margin-bottom: 20px;
+    }
+}

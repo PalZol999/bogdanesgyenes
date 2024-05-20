@@ -2,6 +2,17 @@
     padding-bottom: 20px;
 }
 
+.separator{
+    padding-left: 30px;
+}
+
+.list {
+list-style-type: disc;
+ padding-left: 100px;
+  }
+
+
+
 .contact-content p {
     padding: 10px 0;
 }

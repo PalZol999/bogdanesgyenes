@@ -1,26 +1,25 @@
 import React from "react";
 import HeroImage from "../../components/HeroImage/HeroImage";
-import bgImage from "../../assets/about2.jpg";
+import bgImage from "../../assets/csapat_kep_head.jpeg";
 
 import AboutInfo from "./AboutInfo/AboutInfo";
-import OurData from "./OurData/OurData";
-import Gallery from "./Gallery/Gallery";
+
+
 
 const About = () => {
   return (
     <div>
       <HeroImage
-        bgImage={bgImage}
-        heading={[
-          "about us ",
-          <span className="ampersand"> & </span>,
-          " photo gallery",
-        ]}
-        text="Take a look at the place, the people and the food…"
-      />
+         bgImage={bgImage}
+         heading={["", <span>Rólunk</span>]}
+         
+       />
+      
       <AboutInfo />
 
-      <Gallery />
+
+
+ 
     </div>
   );
 };

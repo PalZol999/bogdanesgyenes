@@ -1,9 +1,11 @@
 .footer {
   background-color: var(--color-tertiary);
+  padding: 20px; 
 }
 
 .footer-grid-item :nth-child(2) {
   padding-top: 1px;
+  
 }
 
 .footer-grid-item :nth-child(3) {
@@ -13,12 +15,12 @@
 .social-icons {
   position: absolute;
   right: 0;
-  padding-right: 25px;
+  padding-right: 100px;
   justify-content: space-between;
 }
 
 .social-icons a {
   margin-right: 20px; /* Adjust margin as needed */
   font-size: 34px;
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }

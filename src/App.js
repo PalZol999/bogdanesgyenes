@@ -1,13 +1,15 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import Menu from "./pages/Menu/Menu";
-import Delivery from "./pages/Delivery/Delivery";
-import About from "./pages/About/About";
-import Contact from "./pages/Contact/Contact";
 
 import Navbar from "./components/Navbar/Navbar";
+
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Treatment from "./pages/Treatment/Treatment";
+import Contact from "./pages/Contact/Contact";
+
 import Footer from "./components/Footer/Footer";
+
 
 function App() {
   return (
@@ -15,9 +17,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/menu" element={<Menu />} />
-        <Route path="/delivery" element={<Delivery />} />
         <Route path="/about" element={<About />} />
+        <Route path="/treatment" element={<Treatment />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

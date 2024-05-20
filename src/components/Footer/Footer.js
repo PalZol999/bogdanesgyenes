@@ -9,19 +9,20 @@ const Footer = () => {
         <div className="grid-container">
           <div className="footer-grid-item">
             <div className="social-icons">
-              <a href="https://www.facebook.com/alagringainbudapest">
+              <a href="https://www.facebook.com/bogdangyenes">
                 <FaFacebook />
               </a>
-              <a href="https://www.instagram.com/your-instagram-page">
+              <a href="https://www.instagram.com">
                 <FaInstagram />
               </a>
             </div>
-            <div>
-              <h3>A la Gringa</h3>
-              <p>1052 Budapest</p>
-              <p>Vitkovics Mihály u. 3-5 </p>
-              <p>(+36) 30 225 4537</p>
-              <p>management@alagringa.com</p>
+            <div >
+              <h3 >Bogdan és Gyenes</h3>
+              <p>1124 Budapest</p>
+              <p>Zsámbéki utca 10 </p>
+              <p>(+36) 30 43 77 220</p>
+              <p>(+36) 1 20 20 168</p>
+              <p>praxis@bogdangyenes.hu</p>
             </div>
           </div>
         </div>

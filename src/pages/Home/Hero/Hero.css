@@ -1,17 +1,43 @@
-.hero-img {
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  background-image: url("../../../assets/welcomepage.jpg");
+  background-image: url("../../../assets/welcomeimg1.jpeg");
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   background-size: cover;
-  position: relative;
 }
 
 .hero-content {
-  position: absolute;
-  top: 40%;
+  text-align: center;
+  position: relative; 
 }
 
 .hero-content p {
   font-size: 20px;
+  padding-top: 20px;
+}
+
+/* Define the animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px); /* Optional: Add some movement */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Optional: End position */
+  }
+}
+
+/* Apply the animation to the logo */
+.hero-logo {
+  animation: fadeIn 2s ease-out; /* Adjust duration and timing function as needed */
+}
+
+/* Additional text styling */
+.text-white {
+  color: white;
+  margin-top: 20px;
 }

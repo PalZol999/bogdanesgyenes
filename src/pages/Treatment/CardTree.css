@@ -91,7 +91,7 @@
 .connector.left {
   margin-top: 5rem;  /* move lower verticaly*/
   position: absolute;
-  left: 101%; /* Center horizontally */
+  left: 100%; /* Center horizontally */
   width: 80px; /* Length of the line */
   height: 5px; /* Thickness of the line */
   background-color: #3d761d;

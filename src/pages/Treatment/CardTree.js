@@ -12,9 +12,9 @@ function CardTree() {
 
   return (
     <div className="container">
-        <div className="vine"></div>
+        
       <div className="card-container">
-      
+      <div className="vine"></div>
 
         <div
           className={`card left-card ${flipped[0] ? 'flipped' : ''}`}

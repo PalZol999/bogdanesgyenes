@@ -9,6 +9,18 @@
 }
 
 .vine {
+  position: absolute;
+  top: 50%; /* Adjusted for relative positioning */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centering using transform */
+  width: 8px;
+  height: 90%; /* Full viewport height */
+  background-color: #3d761d;
+  z-index: 0;
+}
+
+
+/*.vine {
   position:absolute;
   top: 600px;
   left: 50%;
@@ -16,7 +28,7 @@
   height: 100%;
   background-color: #3d761d;
   z-index: 0;
-}
+}*/
 .card {
   width: 40%; 
   height: 200px; 
@@ -95,4 +107,21 @@
   background-color: #3d761d;
   z-index: 1; /* Ensures it stays behind other elements if needed */
 
+}
+
+@media (max-width: 768px) {
+  .vine {
+    top: 50%; /* Adjust position for smaller screens */
+  }
+
+  .card {
+    width: 90%; /* Increase width for smaller screens */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .left-card, .right-card {
+    align-self: center; /* Center align on smaller screens */
+    margin-bottom: 10rem; /* Adjust margin for smaller screens */
+  }
 }
